@@ -1,107 +1,111 @@
 # Iskra Language Pack
 
-**Версия:** 1.0.0
-**Тип:** Языковой пакет (Language)
+> [English](README.md) | [Русский](README.ru.md)
+
+**Version:** 1.0.0
+**Type:** Language Pack
 **Code:** `iskra_language_pack`
-**Совместимость:** OpenCart 4.x
+**Compatibility:** OpenCart 4.x
 
 ---
 
-## Описание
+## Description
 
-Единый языковой пакет, содержащий **5 языков** для админ-панели и витрины OpenCart 4:
+A unified language pack containing **5 languages** for the OpenCart 4 admin panel and storefront:
 
-| Код | Язык | Включён |
-|-----|------|---------|
-| ru-ru | Русский | ✅ |
-| uk-ua | Українська | ✅ |
-| kk-kz | Қазақ тілі | ✅ |
-| be-by | Беларуская | ✅ |
-| ro-ro | Română | ✅ |
+| Code | Language | Enabled |
+|------|----------|---------|
+| ru-ru | Russian | ✅ |
+| uk-ua | Ukrainian | ✅ |
+| kk-kz | Kazakh | ✅ |
+| be-by | Belarusian | ✅ |
+| ro-ro | Romanian | ✅ |
 
-Устанавливается из одного ZIP-архива через стандартный установщик OpenCart.
-
----
-
-## Установка
-
-### Через установщик OpenCart (рекомендуется)
-
-1. **Система → Расширения → Установщик расширений**
-2. Нажать **Загрузить** и выбрать `iskra_language_pack-1.0.0.ocmod.zip`
-3. **Система → Расширения → Расширения**
-4. В выпадающем списке выбрать **Language**
-5. Найти **Iskra Language Pack** → нажать **Установить**
-6. Готово: 5 языков появятся в **Система → Локализация → Языки**
-
-### Ручная установка
-
-1. Скопировать папку `extension/iskra_language_pack/` в корень OpenCart
-2. **Система → Расширения → Расширения → Language → Iskra Language Pack → Установить**
+Installs as a single ZIP archive via the standard OpenCart Extension Installer.
 
 ---
 
-## После установки
+## Installation
 
-- Все 5 языков активны по умолчанию
-- Чтобы отключить ненужные: **Система → Локализация → Языки** → выключить
-- Язык по умолчанию настраивается в **Система → Настройки → Локаль**
-- Переключение языка на витрине — через виджет в шапке (если установлен модуль Iskra Account)
+### Via OpenCart Extension Installer (recommended)
+
+1. Go to **System → Extensions → Extension Installer**
+2. Click **Upload** and select `iskra_language_pack-1.0.0.ocmod.zip`
+3. Go to **System → Extensions → Extensions**
+4. Select **Language** from the dropdown
+5. Find **Iskra Language Pack** → click **Install**
+6. Done: all 5 languages will appear in **System → Localisation → Languages**
+
+### Manual Installation
+
+1. Copy the folder `extension/iskra_language_pack/` to the root of your OpenCart installation
+2. Go to **System → Extensions → Extensions → Language → Iskra Language Pack → Install**
 
 ---
 
-## Удаление
+## Post-Installation
 
-**Система → Расширения → Расширения → Language → Iskra Language Pack → Удалить**
-
-⚠ **Внимание:** Удаление расширения удалит все 5 языков из `oc_language`. Если хотя бы один язык используется — назначьте другой язык по умолчанию перед удалением.
+- All 5 languages are enabled by default
+- To disable unwanted languages: **System → Localisation → Languages** → disable
+- Default language is configured in **System → Settings → Local**
+- Storefront language switcher is available via the header widget (if the Iskra Account module is installed)
 
 ---
 
-## Структура расширения
+## Uninstallation
+
+**System → Extensions → Extensions → Language → Iskra Language Pack → Uninstall**
+
+⚠ **Warning:** Uninstalling this extension will remove all 5 languages from `oc_language`. If any of these languages is currently in use, assign a different default language before uninstalling.
+
+---
+
+## Extension Structure
 
 ```
 extension/iskra_language_pack/
-├── install.json                           # метаданные расширения
+├── install.json                           # extension metadata
 ├── README.md
+├── CHANGELOG.md
+├── LICENSE
 ├── admin/
-│   ├── controller/language/               # контроллер (install/uninstall/save)
-│   ├── model/language/                    # модель (fixSeoUrl)
-│   ├── view/template/language/            # шаблон страницы настроек
+│   ├── controller/language/               # controller (install/uninstall/save)
+│   ├── model/language/                    # model (fixSeoUrl)
+│   ├── view/template/language/            # settings page template
 │   └── language/
-│       ├── en-gb/language/                # английские строки админки
-│       ├── ru-ru/                         # переводы админ-панели (русский)
-│       ├── uk-ua/                         # переводы админ-панели (украинский)
-│       ├── kk-kz/                         # переводы админ-панели (казахский)
-│       ├── be-by/                         # переводы админ-панели (белорусский)
-│       └── ro-ro/                         # переводы админ-панели (румынский)
+│       ├── en-gb/language/                # admin UI strings (English)
+│       ├── ru-ru/                         # admin panel translations (Russian)
+│       ├── uk-ua/                         # admin panel translations (Ukrainian)
+│       ├── kk-kz/                         # admin panel translations (Kazakh)
+│       ├── be-by/                         # admin panel translations (Belarusian)
+│       └── ro-ro/                         # admin panel translations (Romanian)
 └── catalog/
     └── language/
-        ├── ru-ru/                         # переводы витрины (русский)
-        ├── uk-ua/                         # переводы витрины (украинский)
-        ├── kk-kz/                         # переводы витрины (казахский)
-        ├── be-by/                         # переводы витрины (белорусский)
-        └── ro-ro/                         # переводы витрины (румынский)
+        ├── ru-ru/                         # storefront translations (Russian)
+        ├── uk-ua/                         # storefront translations (Ukrainian)
+        ├── kk-kz/                         # storefront translations (Kazakh)
+        ├── be-by/                         # storefront translations (Belarusian)
+        └── ro-ro/                         # storefront translations (Romanian)
 ```
 
 ---
 
-## Разработка
+## Development
 
-### Сборка ZIP
+### Building the ZIP
 
 ```bash
 cd extension/iskra_language_pack/
 zip -r ../../iskra_language_pack-1.0.0.ocmod.zip install.json admin/ catalog/
 ```
 
-### Зависимости
+### Dependencies
 
 - OpenCart 4.1+
 - PHP 8.1+
 
 ---
 
-## Лицензия
+## License
 
-MIT License. Сделано командой **Искра**.
+MIT License. Made by the **Iskra** team.
