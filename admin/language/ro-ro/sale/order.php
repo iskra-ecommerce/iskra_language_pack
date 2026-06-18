@@ -1,0 +1,136 @@
+<?php
+// Heading
+$_['heading_title']              = 'Comenzi';
+
+// Text
+$_['text_success']               = 'Succes: Ați modificat comenzile!';
+$_['text_list']                  = 'Listă comenzi';
+$_['text_add']                   = 'Adăugare comandă';
+$_['text_edit']                  = 'Comandă (#%s)';
+$_['text_filter']                = 'Filtru';
+$_['text_store']                 = 'Magazin';
+$_['text_date_added']            = 'Data adăugării';
+$_['text_customer']              = 'Client';
+$_['text_product_add']           = 'Adăugare produs';
+$_['text_model'] 			     = 'Model';
+$_['text_reward']                = 'Puncte recompensă';
+$_['text_points']                = 'Puncte';
+$_['text_reward_add']            = 'Succes: Punctele recompensă au fost adăugate!';
+$_['text_reward_remove']         = 'Succes: Punctele recompensă au fost eliminate!';
+$_['text_affiliate']             = 'Afiliat';
+$_['text_commission']            = 'Comision';
+$_['text_commission_add']        = 'Succes: Comisionul a fost adăugat!';
+$_['text_commission_remove']     = 'Succes: Comisionul a fost eliminat!';
+$_['text_upload']                = 'Fișierul dvs. a fost încărcat cu succes!';
+$_['text_subscription']          = 'Abonament';
+$_['text_subscription_trial']    = '%s la fiecare %d %s(e) pentru %d plată(i) apoi ';
+$_['text_subscription_duration'] = '%s la fiecare %d %s(e) pentru %d plată(i)';
+$_['text_subscription_cancel']   = '%s la fiecare %d %s(e) până la anulare';
+$_['text_day']                   = 'zi';
+$_['text_week']                  = 'săptămână';
+$_['text_semi_month']            = 'jumătate de lună';
+$_['text_month']                 = 'lună';
+$_['text_year']                  = 'an';
+$_['text_more']                  = 'Mai mult..';
+$_['text_less']                  = 'Mai puțin..';
+$_['text_payment_address']       = 'Adresă de facturare';
+$_['text_payment_method']        = 'Metodă de plată';
+$_['text_payment']               = 'Selectați metoda de plată preferată pentru această comandă.';
+$_['text_shipping_address']      = 'Adresă de livrare';
+$_['text_shipping_method']       = 'Metodă de livrare';
+$_['text_shipping']              = 'Selectați metoda de livrare preferată pentru această comandă.';
+$_['text_comment']               = 'Comentariu';
+$_['text_history']               = 'Istoric';
+$_['text_history_add']           = 'Adăugare istoric';
+$_['text_browser']               = 'Browser';
+$_['text_ip']                    = 'Adresă IP';
+$_['text_forwarded_ip']          = 'IP redirecționat';
+$_['text_user_agent']            = 'Agent utilizator';
+$_['text_accept_language']       = 'Limbă acceptată';
+$_['text_order_id']              = 'ID comandă';
+$_['text_website']               = 'Site web';
+$_['text_invoice']               = 'Factură';
+$_['text_invoice_no']            = 'Nr. factură';
+$_['text_tbc']                   = 'TBC';
+$_['text_store_address']         = 'Adresă magazin';
+$_['text_store_telephone']       = 'Telefon magazin';
+$_['text_store_email']           = 'E-mail magazin';
+$_['text_customer_email']        = 'E-mail client';
+$_['text_customer_telephone']    = 'Telefon client';
+$_['text_missing']               = 'Comenzi lipsă';
+$_['text_default']               = 'Implicit';
+$_['text_picklist']              = 'Notă de expediere';
+$_['text_sku']                   = 'SKU';
+$_['text_upc']                   = 'UPC';
+$_['text_ean']                   = 'EAN';
+$_['text_jan']                   = 'JAN';
+$_['text_isbn']                  = 'ISBN';
+$_['text_mpn']                   = 'MPN';
+
+// Column
+$_['column_order_id']            = 'ID comandă';
+$_['column_customer']            = 'Client';
+$_['column_store']               = 'Magazin';
+$_['column_status']              = 'Status';
+$_['column_date_added']          = 'Data adăugării';
+$_['column_date_modified']       = 'Data modificării';
+$_['column_total']               = 'Total';
+$_['column_product']             = 'Produs';
+$_['column_model']               = 'Model';
+$_['column_quantity']            = 'Cantitate';
+$_['column_price']               = 'Preț unitar';
+$_['column_comment']             = 'Comentariu';
+$_['column_notify']              = 'Client notificat';
+$_['column_location']            = 'Locație';
+$_['column_reference']           = 'Referință';
+$_['column_weight']              = 'Greutate produs';
+$_['column_action']              = 'Acțiune';
+
+// Entry
+$_['entry_store']                = 'Magazin';
+$_['entry_customer']             = 'Client';
+$_['entry_customer_group']       = 'Grup clienți';
+$_['entry_firstname']            = 'Prenume';
+$_['entry_lastname']             = 'Nume';
+$_['entry_email']                = 'E-Mail';
+$_['entry_telephone']            = 'Telefon';
+$_['entry_address']              = 'Alegeți adresa';
+$_['entry_company']              = 'Companie';
+$_['entry_address_1']            = 'Adresa 1';
+$_['entry_address_2']            = 'Adresa 2';
+$_['entry_city']                 = 'Oraș';
+$_['entry_postcode']             = 'Cod poștal';
+$_['entry_country']              = 'Țară';
+$_['entry_zone']                 = 'Regiune / Județ';
+$_['entry_product']              = 'Alegeți produsul';
+$_['entry_option']               = 'Alegeți opțiunea(ele)';
+$_['entry_subscription']         = 'Alegeți abonamentul';
+$_['entry_quantity']             = 'Cantitate';
+$_['entry_order_status']         = 'Status comandă';
+$_['entry_notify']               = 'Notificare client';
+$_['entry_shipping_method']      = 'Metodă de livrare';
+$_['entry_payment_method']       = 'Metodă de plată';
+$_['entry_override']             = 'Suprascriere';
+$_['entry_comment']              = 'Comentariu';
+$_['entry_language']             = 'Limbă';
+$_['entry_currency']             = 'Monedă';
+$_['entry_affiliate']            = 'Afiliat';
+$_['entry_order_id']             = 'ID comandă';
+$_['entry_total']                = 'Total';
+$_['entry_date_from']            = 'Data de la';
+$_['entry_date_to']              = 'Data până la';
+$_['entry_date_modified_from']   = 'Data modificării de la';
+$_['entry_date_modified_to']     = 'Data modificării până la';
+
+// Help
+$_['help_override']              = 'Dacă comanda clientului este blocată să schimbe statusul din cauza unei extensii anti-fraudă, activați suprascrierea.';
+
+// Error
+$_['error_warning']              = 'Atenție: Verificați cu atenție formularul pentru erori!';
+$_['error_permission']           = 'Atenție: Nu aveți permisiunea de a modifica comenzile!';
+$_['error_invoice_no']           = 'Atenție: Nr. factură a fost deja creat!';
+$_['error_order']                = 'Atenție: Comanda nu există!';
+$_['error_affiliate']            = 'Atenție: Afiliatul nu există!';
+$_['error_reward_add']           = 'Atenție: Punctele recompensă pentru această comandă au fost deja adăugate!';
+$_['error_reward_guest']         = 'Atenție: Vizitatorii nu pot folosi puncte recompensă!';
+$_['error_commission_add']       = 'Atenție: Comisionul de afiliat pentru această comandă a fost deja adăugat!';

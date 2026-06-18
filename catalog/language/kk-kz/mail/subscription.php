@@ -1,0 +1,33 @@
+<?php
+// Text
+$_['text_subject']               = '%s - Жазылым %s';
+$_['text_greeting']              = '%s өніміне қызығушылық танытқаныңыз үшін рахмет. Жазылым сұранысыңыз алынды және төлем расталғаннан кейін өңделеді.';
+$_['text_link']                  = 'Жазылымды көру үшін төмендегі сілтемені басыңыз:';
+$_['text_promotion']             = 'Сәтті: Жарнамалық функция осы жазылымға сәтті қосылды!';
+$_['text_subscription_duration'] = '%s әр %d %s сайын, %d төлем үшін';
+$_['text_subscription_cancel']   = '%s әр %d %s сайын, бас тартқанға дейін';
+$_['text_subscription_detail']   = 'Жазылым мәліметтері';
+$_['text_instruction']           = 'Нұсқаулар';
+$_['text_orders_id']             = 'Тапсырыс нөмірі:';
+$_['text_date_added']            = 'Қосылған күні:';
+$_['text_order_status']          = 'Тапсырыс мәртебесі:';
+$_['text_payment_method']        = 'Төлем әдісі:';
+$_['text_payment_address']       = 'Төлем мекенжайы';
+$_['text_email']                 = 'Эл. пошта:';
+$_['text_telephone']             = 'Телефон:';
+$_['text_ip']                    = 'IP-мекенжай:';
+$_['text_products']              = 'Тауарлар';
+$_['text_product']               = 'Тауар';
+$_['text_model']                 = 'Модель';
+$_['text_quantity']              = 'Саны';
+$_['text_price']                 = 'Бағасы';
+$_['text_order_total']           = 'Тапсырыс сомасы';
+$_['text_total']                 = 'Барлығы';
+$_['text_comment']               = 'Жазылымыңызға пікірлер:';
+$_['text_description']           = 'Сипаттама';
+$_['text_day']                   = 'күн';
+$_['text_week']                  = 'апта';
+$_['text_semi_month']            = 'жарты ай';
+$_['text_month']                 = 'ай';
+$_['text_year']                  = 'жыл';
+$_['text_footer']                = 'Сұрақтарыңыз болса, осы хатқа жауап беріңіз.';

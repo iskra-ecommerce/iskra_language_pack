@@ -1,0 +1,33 @@
+<?php
+// Тэкст
+$_['text_subject']               = '%s - Падпіска %s';
+$_['text_greeting']              = 'Дзякуй за вашу цікавасць да прадукту %s. Ваш запыт на падпіску быў атрыманы і будзе апрацаваны пасля пацверджання аплаты.';
+$_['text_link']                  = 'Для прагляду падпіскі націсніце на спасылку ніжэй:';
+$_['text_promotion']             = 'Поспех: Рэкламная функцыя паспяхова дададзена ў гэту падпіску!';
+$_['text_subscription_duration'] = '%s кожныя %d %s для %d плацяжоў';
+$_['text_subscription_cancel']   = '%s кожныя %d %s да адмены';
+$_['text_subscription_detail']   = 'Дэталі падпіскі';
+$_['text_instruction']           = 'Інструкцыі';
+$_['text_orders_id']             = 'Нумар заказа:';
+$_['text_date_added']            = 'Дата дадання:';
+$_['text_order_status']          = 'Статус заказа:';
+$_['text_payment_method']        = 'Метад аплаты:';
+$_['text_payment_address']       = 'Платёжны адрас';
+$_['text_email']                 = 'Эл. пошта:';
+$_['text_telephone']             = 'Тэлефон:';
+$_['text_ip']                    = 'IP-адрас:';
+$_['text_products']              = 'Тавары';
+$_['text_product']               = 'Тавар';
+$_['text_model']                 = 'Мадэль';
+$_['text_quantity']              = 'Колькасць';
+$_['text_price']                 = 'Цана';
+$_['text_order_total']           = 'Сума заказа';
+$_['text_total']                 = 'Усяго';
+$_['text_comment']               = 'Каментарыі да вашай падпіскі:';
+$_['text_description']           = 'Апісанне';
+$_['text_day']                   = 'дзень';
+$_['text_week']                  = 'тыдзень';
+$_['text_semi_month']            = 'паўмесяца';
+$_['text_month']                 = 'месяц';
+$_['text_year']                  = 'год';
+$_['text_footer']                = 'Калі ласка, адкажыце на гэты ліст, калі ў вас ёсць якія-небудзь пытанні.';

@@ -1,0 +1,35 @@
+<?php
+// Тэкст
+$_['text_subject']               = '%s - Заказ %s';
+$_['text_greeting']              = 'Дзякуй за вашу цікавасць да прадуктаў %s. Ваш заказ будзе апрацаваны пасля пацверджання аплаты.';
+$_['text_link']                  = 'Для прагляду заказа націсніце на спасылку ніжэй:';
+$_['text_order_detail']          = 'Дэталі заказа';
+$_['text_instruction']           = 'Інструкцыі';
+$_['text_order_id']              = 'Нумар заказа:';
+$_['text_date_added']            = 'Дата дадання:';
+$_['text_order_status']          = 'Статус заказа:';
+$_['text_payment_method']        = 'Метад аплаты:';
+$_['text_shipping_method']       = 'Спосаб дастаўкі:';
+$_['text_email']                 = 'Эл. пошта:';
+$_['text_telephone']             = 'Тэлефон:';
+$_['text_ip']                    = 'IP-адрас:';
+$_['text_payment_address']       = 'Платёжны адрас';
+$_['text_shipping_address']      = 'Адрас дастаўкі';
+$_['text_products']              = 'Тавары';
+$_['text_product']               = 'Тавар';
+$_['text_model']                 = 'Мадэль';
+$_['text_quantity']              = 'Колькасць';
+$_['text_price']                 = 'Цана';
+$_['text_order_total']           = 'Сума заказа';
+$_['text_total']                 = 'Усяго';
+$_['text_subscription']          = 'Падпіска';
+$_['text_subscription_duration'] = '%s кожныя %d %s для %d плацяжоў';
+$_['text_subscription_cancel']   = '%s кожныя %d %s да адмены';
+$_['text_day']                   = 'дзень';
+$_['text_week']                  = 'тыдзень';
+$_['text_semi_month']            = 'паўмесяца';
+$_['text_month']                 = 'месяц';
+$_['text_year']                  = 'год';
+$_['text_download']              = 'Пасля пацверджання аплаты, спампоўваныя тавары будуць даступны па спасылцы:';
+$_['text_comment']               = 'Каментарыі да вашага заказа:';
+$_['text_footer']                = 'Калі ласка, адкажыце на гэты ліст, калі ў вас ёсць якія-небудзь пытанні.';

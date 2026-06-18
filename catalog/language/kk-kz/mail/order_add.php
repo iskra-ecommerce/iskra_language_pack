@@ -1,0 +1,35 @@
+<?php
+// Text
+$_['text_subject']               = '%s - Тапсырыс %s';
+$_['text_greeting']              = '%s өнімдеріне қызығушылық танытқаныңыз үшін рахмет. Сіздің тапсырысыңыз төлем расталғаннан кейін өңделеді.';
+$_['text_link']                  = 'Тапсырысты көру үшін төмендегі сілтемені басыңыз:';
+$_['text_order_detail']          = 'Тапсырыс мәліметтері';
+$_['text_instruction']           = 'Нұсқаулар';
+$_['text_order_id']              = 'Тапсырыс нөмірі:';
+$_['text_date_added']            = 'Қосылған күні:';
+$_['text_order_status']          = 'Тапсырыс мәртебесі:';
+$_['text_payment_method']        = 'Төлем әдісі:';
+$_['text_shipping_method']       = 'Жеткізу әдісі:';
+$_['text_email']                 = 'Эл. пошта:';
+$_['text_telephone']             = 'Телефон:';
+$_['text_ip']                    = 'IP-мекенжай:';
+$_['text_payment_address']       = 'Төлем мекенжайы';
+$_['text_shipping_address']      = 'Жеткізу мекенжайы';
+$_['text_products']              = 'Тауарлар';
+$_['text_product']               = 'Тауар';
+$_['text_model']                 = 'Модель';
+$_['text_quantity']              = 'Саны';
+$_['text_price']                 = 'Бағасы';
+$_['text_order_total']           = 'Тапсырыс сомасы';
+$_['text_total']                 = 'Барлығы';
+$_['text_subscription']          = 'Жазылым';
+$_['text_subscription_duration'] = '%s әр %d %s сайын, %d төлем үшін';
+$_['text_subscription_cancel']   = '%s әр %d %s сайын, бас тартқанға дейін';
+$_['text_day']                   = 'күн';
+$_['text_week']                  = 'апта';
+$_['text_semi_month']            = 'жарты ай';
+$_['text_month']                 = 'ай';
+$_['text_year']                  = 'жыл';
+$_['text_download']              = 'Төлем расталғаннан кейін жүктелетін тауарлар келесі сілтеме бойынша қолжетімді болады:';
+$_['text_comment']               = 'Тапсырысыңызға пікірлер:';
+$_['text_footer']                = 'Сұрақтарыңыз болса, осы хатқа жауап беріңіз.';

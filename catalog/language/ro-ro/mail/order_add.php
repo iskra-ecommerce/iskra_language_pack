@@ -1,0 +1,35 @@
+<?php
+// Text
+$_['text_subject']               = '%s - Comanda %s';
+$_['text_greeting']              = 'V&#259; mul&#539;umim pentru interesul fa&#539;&#259; de produsele %s. Comanda a fost primit&#259; &#351;i va fi procesat&#259; dup&#259; confirmarea pl&#259;&#539;ii.';
+$_['text_link']                  = 'Pentru a vedea comanda, face&#539;i clic pe linkul de mai jos:';
+$_['text_order_detail']          = 'Detalii comand&#259;';
+$_['text_instruction']           = 'Instruc&#539;iuni';
+$_['text_order_id']              = 'ID comand&#259;:';
+$_['text_date_added']            = 'Data ad&#259;ug&#259;rii:';
+$_['text_order_status']          = 'Status comand&#259;:';
+$_['text_payment_method']        = 'Metoda de plat&#259;:';
+$_['text_shipping_method']       = 'Metoda de livrare:';
+$_['text_email']                 = 'E-mail:';
+$_['text_telephone']             = 'Telefon:';
+$_['text_ip']                    = 'Adres&#259; IP:';
+$_['text_payment_address']       = 'Adresa de plat&#259;';
+$_['text_shipping_address']      = 'Adresa de livrare';
+$_['text_products']              = 'Produse';
+$_['text_product']               = 'Produs';
+$_['text_model']                 = 'Model';
+$_['text_quantity']              = 'Cantitate';
+$_['text_price']                 = 'Pre&#539;';
+$_['text_order_total']           = 'Totaluri comand&#259;';
+$_['text_total']                 = 'Total';
+$_['text_subscription']          = 'Abonament';
+$_['text_subscription_duration'] = '%s la fiecare %d %s pentru %d pl&#259;&#539;i';
+$_['text_subscription_cancel']   = '%s la fiecare %d %s p&#226;n&#259; la anulare';
+$_['text_day']                   = 'zi';
+$_['text_week']                  = 's&#259;pt&#259;m&#226;n&#259;';
+$_['text_semi_month']            = 'jum&#259;tate de lun&#259;';
+$_['text_month']                 = 'lun&#259;';
+$_['text_year']                  = 'an';
+$_['text_download']              = 'Dup&#259; confirmarea pl&#259;&#539;ii, pute&#539;i accesa linkul de mai jos pentru a desc&#259;rca produsele:';
+$_['text_comment']               = 'Comentariile pentru comanda sunt:';
+$_['text_footer']                = 'R&#259;spunde&#539;i la acest e-mail dac&#259; ave&#539;i &#238;ntreb&#259;ri.';

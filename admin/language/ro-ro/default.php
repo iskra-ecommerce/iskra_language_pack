@@ -1,0 +1,180 @@
+<?php
+// Locale
+$_['code']                          = 'ro';
+$_['direction']                     = 'ltr';
+$_['date_format_short']             = 'd.m.Y';
+$_['date_format_long']              = 'l d F Y';
+$_['time_format']                   = 'H:i:s';
+$_['datetime_format']               = 'd.m.Y H:i:s';
+$_['decimal_point']                 = '.';
+$_['thousand_point']                = ' ';
+
+// Text
+$_['text_yes']                      = 'Da';
+$_['text_no']                       = 'Nu';
+$_['text_on']                       = 'Pornit';
+$_['text_off']                      = 'Oprit';
+$_['text_enabled']                  = 'Activat';
+$_['text_disabled']                 = 'Dezactivat';
+$_['text_none']                     = ' --- Niciunul --- ';
+$_['text_select']                   = ' --- Selectați --- ';
+$_['text_select_all']               = 'Selectați tot';
+$_['text_all']                      = 'Tot';
+$_['text_unselect_all']             = 'Deselectați tot';
+$_['text_all_zones']                = 'Toate regiunile';
+$_['text_default']                  = ' <b>(Implicit)</b>';
+$_['text_close']                    = 'Închideți';
+$_['text_pagination']               = 'Afișat %d până la %d din %d (%d Pagini)';
+$_['text_loading']                  = 'Se încarcă...';
+$_['text_no_results']               = 'Niciun rezultat!';
+$_['text_confirm']                  = 'Sunteți sigur?';
+$_['text_home']                     = 'Acasă';
+
+$_['text_second_ago']               = 'chiar acum';
+$_['text_seconds_ago']              = 'acum %s secunde';
+$_['text_minute_ago']               = 'acum %s minut';
+$_['text_minutes_ago']              = 'acum %s minute';
+$_['text_hour_ago']                 = 'acum %s oră';
+$_['text_hours_ago']                = 'acum %s ore';
+$_['text_day_ago']                  = 'acum %s zi';
+$_['text_days_ago']                 = 'acum %s zile';
+$_['text_week_ago']                 = 'acum %s săptămână';
+$_['text_weeks_ago']                = 'acum %s săptămâni';
+$_['text_month_ago']                = 'acum %s lună';
+$_['text_months_ago']               = 'acum %s luni';
+$_['text_year_ago']                 = 'acum %s an';
+$_['text_years_ago']                = 'acum %s ani';
+
+// Buttons
+$_['button_add']                    = 'Adăugare nou';
+$_['button_delete']                 = 'Ștergere';
+$_['button_save']                   = 'Salvare';
+$_['button_cancel']                 = 'Anulare';
+$_['button_subscription_cancel']    = 'Anulare abonament';
+$_['button_continue']               = 'Continuare';
+$_['button_confirm']                = 'Confirmare';
+$_['button_clear']                  = 'Golire';
+$_['button_close']                  = 'Închidere';
+$_['button_enable']                 = 'Activare';
+$_['button_disable']                = 'Dezactivare';
+$_['button_filter']                 = 'Filtrare';
+$_['button_send']                   = 'Trimitere';
+$_['button_edit']                   = 'Editare';
+$_['button_copy']                   = 'Copiere';
+$_['button_back']                   = 'Înapoi';
+$_['button_remove']                 = 'Eliminare';
+$_['button_refresh']                = 'Reîmprospătare';
+$_['button_export']                 = 'Export';
+$_['button_import']                 = 'Import';
+$_['button_download']               = 'Descărcare';
+$_['button_rebuild']                = 'Reconstruire';
+$_['button_upload']                 = 'Încărcare';
+$_['button_submit']                 = 'Trimitere';
+$_['button_invoice_print']          = 'Tipărire factură';
+$_['button_shipping_print']         = 'Tipărire listă livrare';
+$_['button_address_add']            = 'Adăugare adresă';
+$_['button_attribute_add']          = 'Adăugare atribut';
+$_['button_banner_add']             = 'Adăugare banner';
+$_['button_custom_field_value_add'] = 'Adăugare câmp personalizat';
+$_['button_product_add']            = 'Adăugare produs';
+$_['button_filter_add']             = 'Adăugare filtru';
+$_['button_option_add']             = 'Adăugare opțiune';
+$_['button_option_value_add']       = 'Adăugare valoare opțiune';
+$_['button_subscription_add']       = 'Adăugare abonament';
+$_['button_discount_add']           = 'Adăugare reducere';
+$_['button_image_add']              = 'Adăugare imagine';
+$_['button_geo_zone_add']           = 'Adăugare zonă geografică';
+$_['button_history_add']            = 'Adăugare istoric';
+$_['button_transaction_add']        = 'Adăugare tranzacție';
+$_['button_route_add']              = 'Adăugare rută';
+$_['button_rule_add']               = 'Adăugare regulă';
+$_['button_module_add']             = 'Adăugare modul';
+$_['button_link_add']               = 'Adăugare link';
+$_['button_customer_add']           = 'Adăugare client';
+$_['button_approve']                = 'Aprobare';
+$_['button_deny']                   = 'Respingere';
+$_['button_reset']                  = 'Resetare';
+$_['button_generate']               = 'Generare';
+$_['button_view']                   = 'Vizualizare';
+$_['button_reward_add']             = 'Adăugare puncte recompensă';
+$_['button_reward_remove']          = 'Eliminare puncte recompensă';
+$_['button_commission_add']         = 'Adăugare comision';
+$_['button_commission_remove']      = 'Eliminare comision';
+$_['button_credit_add']             = 'Adăugare credit';
+$_['button_credit_remove']          = 'Eliminare credit';
+$_['button_ip_add']                 = 'Adăugare adresă IP';
+$_['button_parent']                 = 'Părinte';
+$_['button_folder']                 = 'Dosar nou';
+$_['button_search']                 = 'Căutare';
+$_['button_install']                = 'Instalare';
+$_['button_uninstall']              = 'Dezinstalare';
+$_['button_link']                   = 'Link';
+$_['button_currency']               = 'Actualizare cursuri valutare';
+$_['button_apply']                  = 'Aplicare';
+$_['button_category_add']           = 'Adăugare categorie';
+$_['button_order']                  = 'Vizualizare comandă';
+$_['button_subscription']           = 'Vizualizare abonament';
+$_['button_buy']                    = 'Cumpărare';
+$_['button_restore']                = 'Restaurare';
+$_['button_run']                    = 'Rulare sarcină programată';
+$_['button_backup']                 = 'Backup';
+$_['button_developer']              = 'Setări dezvoltator';
+$_['button_master']                 = 'Produs principal';
+$_['button_resend']                 = 'Retrimitere';
+$_['button_calculate']              = 'Calculare plăți';
+$_['button_csv']                    = 'Descărcare CSV';
+$_['button_complete']               = 'Finalizare plăți';
+
+// Tabs
+$_['tab_address']                   = 'Adrese';
+$_['tab_additional']                = 'Adițional';
+$_['tab_attribute']                 = 'Atribut';
+$_['tab_comment']                   = 'Comentariu';
+$_['tab_data']                      = 'Date';
+$_['tab_description']               = 'Descriere';
+$_['tab_design']                    = 'Design';
+$_['tab_discount']                  = 'Reducere';
+$_['tab_documentation']             = 'Documentație';
+$_['tab_general']                   = 'General';
+$_['tab_history']                   = 'Istoric';
+$_['tab_ip']                        = 'Adrese IP';
+$_['tab_links']                     = 'Linkuri';
+$_['tab_log']                       = 'Jurnal';
+$_['tab_image']                     = 'Imagine';
+$_['tab_option']                    = 'Opțiune';
+$_['tab_server']                    = 'Server';
+$_['tab_seo']                       = 'Optimizare SEO';
+$_['tab_store']                     = 'Magazin';
+$_['tab_local']                     = 'Localizare';
+$_['tab_mail']                      = 'Mail';
+$_['tab_payment_method']            = 'Metode de plată';
+$_['tab_product']                   = 'Produse';
+$_['tab_reward']                    = 'Puncte recompensă';
+$_['tab_transaction']               = 'Tranzacții';
+$_['tab_subscription']              = 'Abonament';
+$_['tab_report']                    = 'Raport';
+
+// Error
+$_['error_exception']               = 'Cod eroare(%s): %s în %s linia %s';
+$_['error_upload_1']                = 'Atenție: Fișierul încărcat depășește valoarea upload_max_filesize din php.ini!';
+$_['error_upload_2']                = 'Atenție: Fișierul încărcat depășește directiva MAX_FILE_SIZE specificată în formularul HTML!';
+$_['error_upload_3']                = 'Atenție: Fișierul a fost încărcat doar parțial!';
+$_['error_upload_4']                = 'Atenție: Nu s-a încărcat niciun fișier!';
+$_['error_upload_6']                = 'Atenție: Lipsește un dosar temporar!';
+$_['error_upload_7']                = 'Atenție: Nu s-a putut scrie fișierul pe disc!';
+$_['error_upload_8']                = 'Atenție: Nu este permisă încărcarea unui fișier cu această extensie!';
+$_['error_upload_999']              = 'Atenție: Cod de eroare indisponibil!';
+$_['error_upload_size']             = 'Atenție: Fișierul încărcat depășește dimensiunea maximă de %s MB!';
+$_['error_curl']                    = 'CURL: Cod eroare(%s): %s';
+$_['error_format_b']				= 'Atenție: Fișierul încărcat depășește dimensiunea maximă de fișier: %s octeți!';
+$_['error_format_kb']				= 'Atenție: Fișierul încărcat depășește dimensiunea maximă de fișier: %s kiloocteți!';
+$_['error_format_mb']				= 'Atenție: Fișierul încărcat depășește dimensiunea maximă de fișier: %s megaocteți!';
+$_['error_format_gb']				= 'Atenție: Fișierul încărcat depășește dimensiunea maximă de fișier: %s gigaocteți!';
+
+// When doing translations only include the matching language code
+
+// CKEditor
+$_['ckeditor']                      = 'ro';
+
+// Datepicker
+$_['datepicker']                    = 'ro';

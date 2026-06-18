@@ -1,0 +1,137 @@
+<?php
+// Heading
+$_['heading_title']              = 'Тавары';
+
+// Text
+$_['text_success']               = 'Поспех: Вы змянілі тавары!';
+$_['text_variant']               = 'Калі ласка, звярніце ўвагу, што гэта варыянт тавара, і вы павінны пераазначыць <a href="%s" target="_blank" class="alert-link">асноўны тавар</a>. У адваротным выпадку даныя будуць заменены на даныя <a href="%s" target="_blank" class="alert-link">асноўнага тавара</a> пры захаванні.';
+$_['text_list']                  = 'Спіс тавараў';
+$_['text_add']                   = 'Дадаць тавар';
+$_['text_edit']                  = 'Рэдагаваць тавар';
+$_['text_variant_add']           = 'Дадаць варыянт';
+$_['text_model']                 = 'Мадэль';
+$_['text_price']                 = 'Цана';
+$_['text_stock']                 = 'Наяўнасць';
+$_['text_specification']         = 'Спецыфікацыя';
+$_['text_filter']                = 'Фільтр';
+$_['text_default']               = 'Па змаўчанні';
+$_['text_keyword']               = 'Не выкарыстоўвайце прабелы, замяняйце іх на - і пераканайцеся, што SEO URL з\'яўляецца глабальна ўнікальным.';
+$_['text_option_add']            = 'Дадаць опцыю';
+$_['text_option_value']          = 'Значэнне опцыі';
+$_['text_select']                = 'Выпадальны спіс';
+$_['text_radio']                 = 'Радыё';
+$_['text_checkbox']              = 'Сцяжок';
+$_['text_input']                 = 'Увод';
+$_['text_text']                  = 'Тэкст';
+$_['text_textarea']              = 'Тэкставая вобласць';
+$_['text_file']                  = 'Файл';
+$_['text_date']                  = 'Дата';
+$_['text_datetime']              = 'Дата і Час';
+$_['text_time']                  = 'Час';
+$_['text_fixed']                 = 'Фіксаваная сума';
+$_['text_subtract']              = 'Адніманне';
+$_['text_percentage']            = 'Працэнты';
+$_['text_image']                 = 'Выява';
+$_['text_image_additional']      = 'Дадатковыя выявы';
+$_['text_reward']                = 'Купіць балы';
+$_['text_points']                = 'Бонусныя балы';
+$_['text_from']                  = 'Ад';
+$_['text_to']                    = 'Да';
+$_['text_subscription_trial']    = '%s кожныя %d %s для %d плацяжу(оў) потым ';
+$_['text_subscription_duration'] = '%s кожныя %d %s для %d плацяжу(оў)';
+$_['text_subscription_cancel']   = '%s кожныя %d %s да адмены';
+$_['text_day']                   = 'дзень';
+$_['text_week']                  = 'тыдзень';
+$_['text_semi_month']            = 'паўмесяца';
+$_['text_month']                 = 'месяц';
+$_['text_year']                  = 'год';
+$_['text_report']                = 'Справаздачы';
+
+// Column
+$_['column_name']                = 'Назва тавара';
+$_['column_model']               = 'Мадэль';
+$_['column_image']               = 'Выява';
+$_['column_price']               = 'Цана';
+$_['column_quantity']            = 'Колькасць';
+$_['column_status']              = 'Статус';
+$_['column_ip']                  = 'IP';
+$_['column_store']               = 'Магазін';
+$_['column_country']             = 'Краіна';
+$_['column_date_added']          = 'Дата дадання';
+$_['column_action']              = 'Дзеянне';
+
+// Entry
+$_['entry_name']                 = 'Назва тавара';
+$_['entry_description']          = 'Апісанне';
+$_['entry_meta_title']           = 'Мета-тэг Title';
+$_['entry_meta_keyword']         = 'Мета-тэг Keywords';
+$_['entry_meta_description']     = 'Мета-тэг Description';
+$_['entry_store']                = 'Магазіны';
+$_['entry_keyword']              = 'Ключавое слова';
+$_['entry_model']                = 'Мадэль';
+$_['entry_product_code']         = 'Коды тавара';
+$_['entry_location']             = 'Месцазнаходжанне';
+$_['entry_shipping']             = 'Патрабуе дастаўкі';
+$_['entry_manufacturer']         = 'Вытворца';
+$_['entry_date_available']       = 'Дата паступлення';
+$_['entry_quantity']             = 'Колькасць';
+$_['entry_minimum']              = 'Мінімальная колькасць';
+$_['entry_stock_status']         = 'Статус адсутнасці на складзе';
+$_['entry_price']                = 'Цана';
+$_['entry_trial_price']          = 'Пробная цана';
+$_['entry_tax_class']            = 'Клас падатку';
+$_['entry_points']               = 'Балы';
+$_['entry_subtract']             = 'Адлічваць са склада';
+$_['entry_weight_class']         = 'Клас вагі';
+$_['entry_weight']               = 'Вага';
+$_['entry_dimension']            = 'Габарытныя памеры (Д x Ш x В)';
+$_['entry_length_class']         = 'Клас даўжыні';
+$_['entry_length']               = 'Даўжыня';
+$_['entry_width']                = 'Шырыня';
+$_['entry_height']               = 'Вышыня';
+$_['entry_option']               = 'Опцыя';
+$_['entry_option_value']         = 'Значэнне опцыі';
+$_['entry_customer_group']       = 'Група пакупніка';
+$_['entry_special']              = 'Спецыяльная прапанова';
+$_['entry_type']                 = 'Тып';
+$_['entry_date_start']           = 'Дата пачатку';
+$_['entry_date_end']             = 'Дата заканчэння';
+$_['entry_priority']             = 'Прыярытэт';
+$_['entry_attribute']            = 'Атрыбут';
+$_['entry_attribute_group']      = 'Група атрыбутаў';
+$_['entry_image']                = 'Выява';
+$_['entry_text']                 = 'Тэкст';
+$_['entry_required']             = 'Абавязкова';
+$_['entry_status']               = 'Статус';
+$_['entry_sort_order']           = 'Парадак сартавання';
+$_['entry_category']             = 'Катэгорыі';
+$_['entry_filter']               = 'Фільтры';
+$_['entry_download']             = 'Сцягванні';
+$_['entry_related']              = 'Звязаныя тавары';
+$_['entry_tag']                  = 'Тэгі тавара';
+$_['entry_reward']               = 'Бонусныя балы';
+$_['entry_layout']               = 'Перавызначэнне макета';
+$_['entry_subscription']         = 'Падпісны план';
+
+// Help
+$_['help_tag']                   = 'Падзел коскай';
+$_['help_minimum']               = 'Мінімальная колькасць у заказе';
+$_['help_stock_status']          = 'Статус, які адлюстроўваецца, калі тавара няма на складзе';
+$_['help_manufacturer']          = '(Аўтазапаўненне)';
+$_['help_category']              = '(Аўтазапаўненне)';
+$_['help_filter']                = '(Аўтазапаўненне)';
+$_['help_download']              = '(Аўтазапаўненне)';
+$_['help_related']               = '(Аўтазапаўненне)';
+$_['help_option']                = '(Аўтазапаўненне)';
+$_['help_points']                = 'Колькасць балаў, неабходных для набыцця гэтага тавара. Калі вы не жадаеце, каб гэты тавар набываўся за балы, пакіньце значэнне 0.';
+
+// Error
+$_['error_warning']              = 'Папярэджанне: Калі ласка, праверце форму на наяўнасць памылак!';
+$_['error_permission']           = 'Папярэджанне: У вас няма правоў на змяненне тавараў!';
+$_['error_name']                 = 'Назва тавара павінна быць больш за 1 і менш за 255 сімвалаў!';
+$_['error_meta_title']           = 'Мета-загаловак павінен быць больш за 1 і менш за 255 сімвалаў!';
+$_['error_model']                = 'Мадэль тавара павінна быць больш за 1 і менш за 64 сімвалы!';
+$_['error_keyword']              = 'SEO URL павінен быць ад 1 да 64 сімвалаў!';
+$_['error_keyword_exists']       = 'SEO URL павінен быць унікальным!';
+$_['error_keyword_character']    = 'Ключавое слова можа выкарыстоўваць толькі сімвалы a-z, 0-9, - і _!';
+$_['error_required']             = '%s абавязкова!';

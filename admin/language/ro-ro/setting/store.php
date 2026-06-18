@@ -1,0 +1,136 @@
+<?php
+// Heading
+$_['heading_title']                    = 'Magazine';
+
+// Text
+$_['text_settings']                    = 'Setări';
+$_['text_success']                     = 'Succes: Ați modificat magazinele!';
+$_['text_list']                        = 'Listă magazine';
+$_['text_add']                         = 'Adăugare magazin';
+$_['text_edit']                        = 'Editare magazin';
+$_['text_site']                        = 'Detalii site';
+$_['text_meta']                        = 'Meta taguri';
+$_['text_shipping']                    = 'Adresă de livrare';
+$_['text_payment']                     = 'Adresă de facturare';
+$_['text_product']                     = 'Produse';
+$_['text_legal']                       = 'Legal';
+$_['text_tax']                         = 'Taxe';
+$_['text_account']                     = 'Cont';
+$_['text_checkout']                    = 'Finalizare comandă';
+$_['text_stock']                       = 'Stoc';
+$_['text_image']                       = 'Dimensiuni imagine';
+$_['text_region']                      = 'Regiune';
+$_['text_language']                    = 'Limbă';
+$_['text_currency']                    = 'Monedă';
+
+// Column
+$_['column_name']                      = 'Denumire magazin';
+$_['column_url']                       = 'URL magazin';
+$_['column_action']                    = 'Acțiune';
+
+// Entry
+$_['entry_url']                        = 'URL magazin';
+$_['entry_meta_title']                 = 'Meta titlu';
+$_['entry_meta_description']           = 'Meta descriere';
+$_['entry_meta_keyword']               = 'Meta cuvinte cheie';
+$_['entry_layout']                     = 'Aspect implicit';
+$_['entry_theme']                      = 'Temă';
+$_['entry_name']                       = 'Denumire magazin';
+$_['entry_owner']                      = 'Proprietar magazin';
+$_['entry_address']                    = 'Adresă';
+$_['entry_geocode']                    = 'Geocod';
+$_['entry_email']                      = 'E-Mail';
+$_['entry_telephone']                  = 'Telefon';
+$_['entry_image']                      = 'Imagine';
+$_['entry_open']                       = 'Orar de funcționare';
+$_['entry_comment']                    = 'Comentariu';
+$_['entry_location']                   = 'Locație magazin';
+$_['entry_country']                    = 'Țară';
+$_['entry_zone']                       = 'Regiune / Județ';
+$_['entry_language']                   = 'Limbă';
+$_['entry_currency']                   = 'Monedă';
+$_['entry_product_description_length'] = 'Limită descriere listă';
+$_['entry_pagination']                 = 'Elemente implicite per pagină';
+$_['entry_product_count']              = 'Număr produse categorie';
+$_['entry_cookie']                     = 'Politică cookie';
+$_['entry_gdpr']                       = 'Politică GDPR';
+$_['entry_tax']                        = 'Afișare prețuri cu taxă';
+$_['entry_tax_default']                = 'Utilizare adresă fiscală magazin';
+$_['entry_tax_customer']               = 'Utilizare adresă fiscală client';
+$_['entry_customer_group']             = 'Grup clienți';
+$_['entry_customer_group_display']     = 'Grupuri clienți';
+$_['entry_customer_price']             = 'Afișare prețuri la autentificare';
+$_['entry_account']                    = 'Termeni cont';
+$_['entry_cart_weight']                = 'Afișare greutate în coș';
+$_['entry_checkout_guest']             = 'Finalizare ca oaspete';
+$_['entry_checkout']                   = 'Termeni finalizare';
+$_['entry_stock_display']              = 'Afișare stoc';
+$_['entry_stock_checkout']             = 'Finalizare fără stoc';
+$_['entry_logo']                       = 'Logo magazin';
+$_['entry_icon']                       = 'Pictogramă';
+$_['entry_image_category']             = 'Dimensiune imagine categorie (L x Î)';
+$_['entry_image_thumb']                = 'Dimensiune miniatură produs (L x Î)';
+$_['entry_image_popup']                = 'Dimensiune popup produs (L x Î)';
+$_['entry_image_product']              = 'Dimensiune listă produs (L x Î)';
+$_['entry_image_additional']           = 'Dimensiune imagine adițională produs (L x Î)';
+$_['entry_image_related']              = 'Dimensiune produs similar (L x Î)';
+$_['entry_image_article']              = 'Dimensiune imagine articol (L x Î)';
+$_['entry_image_topic']                = 'Dimensiune imagine subiect (L x Î)';
+$_['entry_image_compare']              = 'Dimensiune imagine comparare (L x Î)';
+$_['entry_image_wishlist']             = 'Dimensiune imagine listă dorințe (L x Î)';
+$_['entry_image_cart']                 = 'Dimensiune imagine coș (L x Î)';
+$_['entry_image_location']             = 'Dimensiune imagine magazin (L x Î)';
+$_['entry_width']                      = 'Lățime';
+$_['entry_height']                     = 'Înălțime';
+
+// Help
+$_['help_url']                         = 'Includeți URL-ul complet al magazinului. Asigurați-vă că adăugați \'/\' la sfârșit. Exemplu: http://www.domeniul.ro/path/<br/><br/>Nu utilizați directoare pentru a crea un magazin nou. Ar trebui să indicați întotdeauna un alt domeniu sau subdomeniu către găzduirea dvs.';
+$_['help_icon']                        = 'Pictograma ar trebui să fie un PNG de 16px x 16px.';
+$_['help_geocode']                     = 'Introduceți manual geocodul locației magazinului.';
+$_['help_open']                        = 'Completați orarul de funcționare al magazinului.';
+$_['help_comment']                     = 'Acest câmp este pentru orice note speciale pe care doriți să le comunicați clientului, de ex. Magazinul nu acceptă cecuri.';
+$_['help_location']                    = 'Diferitele locații ale magazinului pe care le aveți și pe care doriți să le afișați pe formularul de contact.';
+$_['help_currency']                    = 'Schimbați moneda implicită. Goliți cache-ul browserului pentru a vedea modificarea și resetați cookie-ul existent.';
+$_['help_pagination']                  = 'Determină câte articole din catalog sunt afișate per pagină (produse, categorii, etc)';
+$_['help_product_description_length']  = 'În vizualizarea listă, limita de caractere pentru descrierea scurtă (categorii, oferte speciale etc)';
+$_['help_cookie']                      = 'Afișează politica de cookie-uri ca parte a legislației UE.';
+$_['help_gdpr']                        = 'Activează funcțiile GDPR, cum ar fi posibilitatea clienților de a solicita ștergerea contului.';
+$_['help_tax_default']                 = 'Utilizează adresa magazinului pentru a calcula taxele dacă clientul nu este autentificat. Puteți alege să utilizați adresa magazinului pentru adresa de livrare sau facturare a clientului.';
+$_['help_tax_customer']                = 'Utilizează adresa implicită a clientului la autentificare pentru a calcula taxele. Puteți alege să utilizați adresa implicită pentru adresa de livrare sau facturare a clientului.';
+$_['help_customer_group']              = 'Grupul implicit de clienți.';
+$_['help_customer_group_display']      = 'Afișați grupurile de clienți pe care noii clienți le pot selecta, cum ar fi en-gros și business la înregistrare.';
+$_['help_customer_price']              = 'Afișați prețurile doar când clientul este autentificat.';
+$_['help_account']                     = 'Forțează acceptarea termenilor înainte de a crea un cont.';
+$_['help_checkout_guest']              = 'Permite clienților să finalizeze comanda fără a crea un cont. Aceasta nu va fi disponibilă atunci când un produs descărcabil se află în coș.';
+$_['help_checkout']                    = 'Forțează acceptarea termenilor înainte ca un client să poată finaliza comanda.';
+$_['help_stock_display']               = 'Afișează cantitatea de stoc pe pagina produsului.';
+$_['help_stock_checkout']              = 'Permite clienților să finalizeze comanda chiar dacă produsele comandate nu sunt în stoc.';
+$_['help_product_count']               = 'Afișează numărul de produse din subcategorii în meniul de categorii din antetul magazinului. Atenție, aceasta poate provoca o scădere extremă a performanței pentru magazinele cu multe subcategorii!';
+
+// Error
+$_['error_warning']                    = 'Atenție: Verificați cu atenție formularul pentru erori!';
+$_['error_permission']                 = 'Atenție: Nu aveți permisiunea de a modifica magazinele!';
+$_['error_url']                        = 'URL-ul magazinului este obligatoriu!';
+$_['error_meta_title']                 = 'Titlul trebuie să aibă între 3 și 32 de caractere!';
+$_['error_name']                       = 'Denumirea magazinului trebuie să aibă între 3 și 32 de caractere!';
+$_['error_owner']                      = 'Proprietarul magazinului trebuie să aibă între 3 și 64 de caractere!';
+$_['error_address']                    = 'Adresa magazinului trebuie să aibă între 10 și 256 de caractere!';
+$_['error_email']                      = 'Adresa de e-mail nu pare a fi validă!';
+$_['error_product_description_length'] = 'Lungimea descrierii produsului este obligatorie!';
+$_['error_pagination']                 = 'Paginația este obligatorie!';
+$_['error_customer_group_display']     = 'Trebuie să includeți grupul implicit de clienți dacă intenționați să utilizați această funcție!';
+$_['error_default']                    = 'Atenție: Nu puteți șterge magazinul implicit!';
+$_['error_order']                      = 'Atenție: Acest magazin nu poate fi șters deoarece este atribuit în prezent la %s comenzi!';
+$_['error_subscription']               = 'Atenție: Acest magazin nu poate fi șters deoarece este atribuit în prezent la %s abonamente!';
+$_['error_image_thumb']                = 'Dimensiunile miniaturii produsului sunt obligatorii!';
+$_['error_image_popup']                = 'Dimensiunile popup-ului produsului sunt obligatorii!';
+$_['error_image_product']              = 'Dimensiunile listei de produse sunt obligatorii!';
+$_['error_image_category']             = 'Dimensiunile listei de categorii sunt obligatorii!';
+$_['error_image_additional']           = 'Dimensiunile imaginii adiționale a produsului sunt obligatorii!';
+$_['error_image_related']              = 'Dimensiunile imaginii produsului similar sunt obligatorii!';
+$_['error_image_article']              = 'Dimensiunile imaginii articolului sunt obligatorii!';
+$_['error_image_topic']                = 'Dimensiunile imaginii subiectului sunt obligatorii!';
+$_['error_image_compare']              = 'Dimensiunile imaginii de comparare sunt obligatorii!';
+$_['error_image_wishlist']             = 'Dimensiunile imaginii listei de dorințe sunt obligatorii!';
+$_['error_image_cart']                 = 'Dimensiunile imaginii coșului sunt obligatorii!';
+$_['error_image_location']             = 'Dimensiunile imaginii magazinului sunt obligatorii!';

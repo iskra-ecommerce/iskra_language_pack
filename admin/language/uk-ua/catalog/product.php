@@ -1,0 +1,137 @@
+<?php
+// Heading
+$_['heading_title']              = 'Товари';
+
+// Text
+$_['text_success']               = 'Успіх: Товари змінено!';
+$_['text_variant']               = 'Зверніть увагу: оскільки це варіант товару, ви повинні перевизначити дані <a href="%s" target="_blank" class="alert-link">основного товару</a>. Інакше дані буде замінено даними <a href="%s" target="_blank" class="alert-link">основного товару</a> при збереженні.';
+$_['text_list']                  = 'Список товарів';
+$_['text_add']                   = 'Додати товар';
+$_['text_edit']                  = 'Редагувати товар';
+$_['text_variant_add']           = 'Додати варіант';
+$_['text_model']                 = 'Модель';
+$_['text_price']                 = 'Ціна';
+$_['text_stock']                 = 'Наявність';
+$_['text_specification']         = 'Специфікація';
+$_['text_filter']                = 'Фільтр';
+$_['text_default']               = 'За замовчуванням';
+$_['text_keyword']               = 'Не використовуйте пробіли — замінюйте їх на -, та переконайтеся, що SEO URL є глобально унікальним.';
+$_['text_option_add']            = 'Додати опцію';
+$_['text_option_value']          = 'Значення опції';
+$_['text_select']                = 'Список';
+$_['text_radio']                 = 'Перемикач';
+$_['text_checkbox']              = 'Прапорець';
+$_['text_input']                 = 'Введення';
+$_['text_text']                  = 'Текст';
+$_['text_textarea']              = 'Текстова область';
+$_['text_file']                  = 'Файл';
+$_['text_date']                  = 'Дата';
+$_['text_datetime']              = 'Дата та час';
+$_['text_time']                  = 'Час';
+$_['text_fixed']                 = 'Фіксована сума';
+$_['text_subtract']              = 'Віднімання';
+$_['text_percentage']            = 'Відсотки';
+$_['text_image']                 = 'Зображення';
+$_['text_image_additional']      = 'Додаткові зображення';
+$_['text_reward']                = 'Купити бали';
+$_['text_points']                = 'Бонусні бали';
+$_['text_from']                  = 'Від';
+$_['text_to']                    = 'До';
+$_['text_subscription_trial']    = '%s кожні %d %s для %d платеж(ів) потім ';
+$_['text_subscription_duration'] = '%s кожні %d %s для %d платеж(ів)';
+$_['text_subscription_cancel']   = '%s кожні %d %s до скасування';
+$_['text_day']                   = 'день';
+$_['text_week']                  = 'тиждень';
+$_['text_semi_month']            = 'півмісяця';
+$_['text_month']                 = 'місяць';
+$_['text_year']                  = 'рік';
+$_['text_report']                = 'Звіти';
+
+// Column
+$_['column_name']                = 'Назва товару';
+$_['column_model']               = 'Модель';
+$_['column_image']               = 'Зображення';
+$_['column_price']               = 'Ціна';
+$_['column_quantity']            = 'Кількість';
+$_['column_status']              = 'Статус';
+$_['column_ip']                  = 'IP-адреса';
+$_['column_store']               = 'Магазин';
+$_['column_country']             = 'Країна';
+$_['column_date_added']          = 'Дата додавання';
+$_['column_action']              = 'Дія';
+
+// Entry
+$_['entry_name']                 = 'Назва товару';
+$_['entry_description']          = 'Опис';
+$_['entry_meta_title']           = 'Мета-тег Title';
+$_['entry_meta_keyword']         = 'Мета-тег Keywords';
+$_['entry_meta_description']     = 'Мета-тег Description';
+$_['entry_store']                = 'Магазини';
+$_['entry_keyword']              = 'Ключове слово';
+$_['entry_model']                = 'Модель';
+$_['entry_product_code']         = 'Коди товару';
+$_['entry_location']             = 'Розташування';
+$_['entry_shipping']             = 'Потрібна доставка';
+$_['entry_manufacturer']         = 'Виробник';
+$_['entry_date_available']       = 'Дата надходження';
+$_['entry_quantity']             = 'Кількість';
+$_['entry_minimum']              = 'Мінімальна кількість';
+$_['entry_stock_status']         = 'Статус відсутності на складі';
+$_['entry_price']                = 'Ціна';
+$_['entry_trial_price']          = 'Пробна ціна';
+$_['entry_tax_class']            = 'Клас податку';
+$_['entry_points']               = 'Бали';
+$_['entry_subtract']             = 'Віднімати зі складу';
+$_['entry_weight_class']         = 'Клас ваги';
+$_['entry_weight']               = 'Вага';
+$_['entry_dimension']            = 'Габарити (Д x Ш x В)';
+$_['entry_length_class']         = 'Клас довжини';
+$_['entry_length']               = 'Довжина';
+$_['entry_width']                = 'Ширина';
+$_['entry_height']               = 'Висота';
+$_['entry_option']               = 'Опція';
+$_['entry_option_value']         = 'Значення опції';
+$_['entry_customer_group']       = 'Група покупця';
+$_['entry_special']              = 'Спеціальна пропозиція';
+$_['entry_type']                 = 'Тип';
+$_['entry_date_start']           = 'Дата початку';
+$_['entry_date_end']             = 'Дата закінчення';
+$_['entry_priority']             = 'Пріоритет';
+$_['entry_attribute']            = 'Атрибут';
+$_['entry_attribute_group']      = 'Група атрибутів';
+$_['entry_image']                = 'Зображення';
+$_['entry_text']                 = 'Текст';
+$_['entry_required']             = 'Обов\'язково';
+$_['entry_status']               = 'Статус';
+$_['entry_sort_order']           = 'Порядок сортування';
+$_['entry_category']             = 'Категорії';
+$_['entry_filter']               = 'Фільтри';
+$_['entry_download']             = 'Завантаження';
+$_['entry_related']              = 'Супутні товари';
+$_['entry_tag']                  = 'Теги товару';
+$_['entry_reward']               = 'Бонусні бали';
+$_['entry_layout']               = 'Перевизначення макету';
+$_['entry_subscription']         = 'План підписки';
+
+// Help
+$_['help_tag']                   = 'Роздільник — кома';
+$_['help_minimum']               = 'Мінімальна кількість у замовленні';
+$_['help_stock_status']          = 'Статус, що відображається, коли товару немає в наявності';
+$_['help_manufacturer']          = '(Автодоповнення)';
+$_['help_category']              = '(Автодоповнення)';
+$_['help_filter']                = '(Автодоповнення)';
+$_['help_download']              = '(Автодоповнення)';
+$_['help_related']               = '(Автодоповнення)';
+$_['help_option']                = '(Автодоповнення)';
+$_['help_points']                = 'Кількість балів, необхідних для покупки цього товару. Якщо ви не бажаєте, щоб цей товар можна було купити за бали, залиште 0.';
+
+// Error
+$_['error_warning']              = 'Увага: Перевірте форму на наявність помилок!';
+$_['error_permission']           = 'Увага: У вас немає прав на зміну товарів!';
+$_['error_name']                 = 'Назва товару має бути більше 1 та менше 255 символів!';
+$_['error_meta_title']           = 'Мета заголовок має бути більше 1 та менше 255 символів!';
+$_['error_model']                = 'Модель товару має бути більше 1 та менше 64 символів!';
+$_['error_keyword']              = 'SEO URL має бути від 1 до 64 символів!';
+$_['error_keyword_exists']       = 'SEO URL має бути унікальним!';
+$_['error_keyword_character']    = 'Ключове слово може містити лише символи a-z, 0-9, - та _!';
+$_['error_required']             = '%s обов\'язково!';
