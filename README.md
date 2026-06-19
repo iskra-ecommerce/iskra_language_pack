@@ -1,17 +1,21 @@
-# Iskra Language Pack
+# Iskra Language Pack — OpenCart 4 Language Extension
+
+[![PHP](https://img.shields.io/badge/PHP-8.1%2B-blue)](https://php.net)
+[![OpenCart](https://img.shields.io/badge/OpenCart-4.x-green)](https://opencart.com)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/iskra-ecommerce/iskra_language_pack)](https://github.com/iskra-ecommerce/iskra_language_pack/releases)
 
 > [English](README.md) | [Русский](README.ru.md)
 
-**Version:** 1.0.0
-**Type:** Language Pack
-**Code:** `iskra_language_pack`
-**Compatibility:** OpenCart 4.x
+**Version:** 1.0.0 | **Type:** Language Pack | **Code:** `iskra_language_pack`
 
 ---
 
 ## Description
 
 A unified language pack containing **5 languages** for the OpenCart 4 admin panel and storefront:
+
+**Keywords:** opencart 4 language pack, opencart russian, opencart ukrainian, opencart kazakh, opencart belarusian, opencart romanian, opencart cyrillic, opencart localization, opencart translation, русский opencart, український opencart, қазақ тілі opencart.
 
 | Code | Language | Enabled |
 |------|----------|---------|
