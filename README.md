@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Release](https://img.shields.io/github/v/release/iskra-ecommerce/iskra_language_pack)](https://github.com/iskra-ecommerce/iskra_language_pack/releases)
 
-> [English](README.md) | [Русский](README.ru.md)
+> [English](README.md) | [Русский](README.ru.md) | **Сайт:** [iskra-ecommerce.github.io](https://iskra-ecommerce.github.io/)
 
 **Version:** 1.0.0 | **Type:** Language Pack | **Code:** `iskra_language_pack`
 
